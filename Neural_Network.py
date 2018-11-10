@@ -42,5 +42,8 @@ if __name__ == "__main__":
         nn.feedforward()
         nn.backprop()
 
+    #print(nn.weights1)
+    print(nn.weights2)
+    #print(nn.layer1)
     print(nn.output)
     #print(nn.loss)
